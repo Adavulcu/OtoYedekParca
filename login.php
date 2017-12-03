@@ -37,11 +37,12 @@
 					<a href="#"><span class="icon-youtube"></span></a>
 					<a href="#"><span class="icon-tumblr"></span></a>
 				</div>
-				<a href="index.html"> <span class="icon-home"></span> Home</a> 
+
+				<a href="index.php"> <span class="icon-home"></span> Home</a>
 				<a href="#"><span class="icon-user"></span> My Account</a> 
-				<a href="register.html"><span class="icon-edit"></span> Free Register </a> 
-				<a href="contact.html"><span class="icon-envelope"></span> Contact us</a>
-				<a href="cart.html"><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> $448.42</span></a>
+				<a href="register.php"><span class="icon-edit"></span> Free Register </a>
+				<a href="contact.php"><span class="icon-envelope"></span> Contact us</a>
+				<a href="cart.php"><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> $448.42</span></a>
 			</div>
 		</div>
 	</div>
@@ -56,7 +57,7 @@ Lower Header Section
 <div class="row">
 	<div class="span4">
 	<h1>
-	<a class="logo" href="index.html"><span>Twitter Bootstrap ecommerce template</span> 
+	<a class="logo" href="index.php"><span>Twitter Bootstrap ecommerce template</span>
 		<img src="assets/img/logo-bootstrap-shoping-cart.png" alt="bootstrap sexy shop">
 	</a>
 	</h1>
@@ -92,12 +93,13 @@ Navigation Bar Section
 		  </a>
 		  <div class="nav-collapse">
 			<ul class="nav">
-			  <li class="active"><a href="index.html">Home	</a></li>
-			  <li class=""><a href="list-view.html">List View</a></li>
-			  <li class=""><a href="grid-view.html">Grid View</a></li>
-			  <li class=""><a href="three-col.html">Three Column</a></li>
-			  <li class=""><a href="four-col.html">Four Column</a></li>
-			  <li class=""><a href="general.html">General Content</a></li>
+
+			  <li class="active"><a href="index.php">Home	</a></li>
+			  <li class=""><a href="list-view.php">List View</a></li>
+			  <li class=""><a href="grid-view.php">Grid View</a></li>
+			  <li class=""><a href="three-col.php">Three Column</a></li>
+			  <li class=""><a href="four-col.php">Four Column</a></li>
+			  <li class=""><a href="general.php">General Content</a></li>
 			</ul>
 			<form action="#" class="navbar-search pull-left">
 			  <input type="text" placeholder="Search" class="search-query span2">
@@ -106,18 +108,21 @@ Navigation Bar Section
 			<li class="dropdown">
 				<a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="icon-lock"></span> Login <b class="caret"></b></a>
 				<div class="dropdown-menu">
-				<form class="form-horizontal loginFrm">
+
+				<form action="logged.php"  method='POST' class="form-horizontal loginFrm">
 				  <div class="control-group">
-					<input type="text" class="span2" id="inputEmail" placeholder="Email">
+					<input type="text" class="span2" id="inputEmail" name="inputEmail" placeholder="Email">
 				  </div>
 				  <div class="control-group">
-					<input type="password" class="span2" id="inputPassword" placeholder="Password">
+					<input type="password" class="span2" id="inputPassword" name="inputPassword" placeholder="Password">
+
 				  </div>
 				  <div class="control-group">
 					<label class="checkbox">
 					<input type="checkbox"> Remember me
 					</label>
-					<button type="submit" class="shopBtn btn-block">Sign in</button>
+
+					<button type="submit" class="shopBtn btn-block" name="signBtn">Sign in</button>
 				  </div>
 				</form>
 				</div>
@@ -134,20 +139,20 @@ Body Section
 <div id="sidebar" class="span3">
 <div class="well well-small">
 	<ul class="nav nav-list">
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Fashion</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Watches</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Fine Jewelry</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Fashion Jewelry</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Engagement & Wedding</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Men's Jewelry</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Vintage & Antique</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Loose Diamonds </a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Loose Beads</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>See All Jewelry & Watches</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Fashion</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Watches</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Fine Jewelry</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Fashion Jewelry</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Engagement & Wedding</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Men's Jewelry</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Vintage & Antique</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Loose Diamonds </a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>Loose Beads</a></li>
+		<li><a href="products.php"><span class="icon-chevron-right"></span>See All Jewelry & Watches</a></li>
 		<li style="border:0"> &nbsp;</li>
-		<li> <a class="totalInCart" href="cart.html"><strong>Total Amount  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
+		<li> <a class="totalInCart" href="cart.php"><strong>Total Amount  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
 	</ul>
-	
+
 </div>
 
 			  <div class="well well-small alert alert-warning cntr">
@@ -164,30 +169,30 @@ Body Section
 			<ul class="nav nav-list promowrapper">
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 				<img src="assets/img/bootstrap-ecommerce-templates.png" alt="bootstrap ecommerce templates">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
+				  <h4><a class="defaultBtn" href="product_details.php">VIEW</a> <span class="pull-right">$22.00</span></h4>
 				</div>
 			  </div>
 			</li>
 			<li style="border:0"> &nbsp;</li>
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 				<img src="assets/img/shopping-cart-template.png" alt="shopping cart template">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
+				  <h4><a class="defaultBtn" href="product_details.php">VIEW</a> <span class="pull-right">$22.00</span></h4>
 				</div>
 			  </div>
 			</li>
 			<li style="border:0"> &nbsp;</li>
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 				<img src="assets/img/bootstrap-template.png" alt="bootstrap template">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
+				  <h4><a class="defaultBtn" href="product_details.php">VIEW</a> <span class="pull-right">$22.00</span></h4>
 				</div>
 			  </div>
 			</li>
@@ -196,7 +201,7 @@ Body Section
 	</div>
 	<div class="span9">
     <ul class="breadcrumb">
-		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+		<li><a href="index.php">Home</a> <span class="divider">/</span></li>
 		<li class="active">Login</li>
     </ul>
 	<h3> Login</h3>	
@@ -224,22 +229,22 @@ Body Section
 		<div class="span4">
 			<div class="well">
 			<h5>ALREADY REGISTERED ?</h5>
-			<form>
+			<form action="logged.php"  method='POST'>
 			  <div class="control-group">
-				<label class="control-label" for="inputEmail">Email</label>
+				<label class="control-label" for="inputEmail" >Email</label>
 				<div class="controls">
-				  <input class="span3"  type="text" placeholder="Email">
+				  <input class="span3"  type="text" placeholder="Email" name="inputEmail">
 				</div>
 			  </div>
 			  <div class="control-group">
 				<label class="control-label" for="inputPassword">Password</label>
 				<div class="controls">
-				  <input type="password" class="span3" placeholder="Password">
+				  <input type="password" class="span3" placeholder="Password" name="inputPassword">
 				</div>
 			  </div>
 			  <div class="control-group">
 				<div class="controls">
-				  <button type="submit" class="defaultBtn">Sign in</button> <a href="#">Forget password?</a>
+				  <button type="submit" class="defaultBtn" name="signBtn">Sign in</button> <a href="#">Forget password?</a>
 				</div>
 			  </div>
 			</form>
@@ -293,7 +298,7 @@ Footer
  </div>
 <div class="span2">
 <h5>Iinformation</h5>
-<a href="contact.html">CONTACT</a><br>
+<a href="contact.php">CONTACT</a><br>
 <a href="#">SITEMAP</a><br>
 <a href="#">LEGAL NOTICE</a><br>
 <a href="#">TERMS AND CONDITIONS</a><br>

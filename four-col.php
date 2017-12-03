@@ -37,11 +37,11 @@
 					<a href="#"><span class="icon-youtube"></span></a>
 					<a href="#"><span class="icon-tumblr"></span></a>
 				</div>
-				<a href="index.html"> <span class="icon-home"></span> Home</a> 
+				<a href="index.php"> <span class="icon-home"></span> Home</a>
 				<a href="#"><span class="icon-user"></span> My Account</a> 
-				<a href="register.html"><span class="icon-edit"></span> Free Register </a> 
-				<a href="contact.html"><span class="icon-envelope"></span> Contact us</a>
-				<a href="cart.html"><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> $448.42</span></a>
+				<a href="register.php"><span class="icon-edit"></span> Free Register </a>
+				<a href="contact.php"><span class="icon-envelope"></span> Contact us</a>
+				<a href="cart.php"><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> $448.42</span></a>
 			</div>
 		</div>
 	</div>
@@ -56,7 +56,7 @@ Lower Header Section
 <div class="row">
 	<div class="span4">
 	<h1>
-	<a class="logo" href="index.html"><span>Twitter Bootstrap ecommerce template</span> 
+	<a class="logo" href="index.php"><span>Twitter Bootstrap ecommerce template</span>
 		<img src="assets/img/logo-bootstrap-shoping-cart.png" alt="bootstrap sexy shop">
 	</a>
 	</h1>
@@ -92,12 +92,12 @@ Navigation Bar Section
 		  </a>
 		  <div class="nav-collapse">
 			<ul class="nav">
-			  <li class=""><a href="index.html">Home	</a></li>
-			  <li class=""><a href="list-view.html">List View</a></li>
-			  <li class=""><a href="grid-view.html">Grid View</a></li>
-			  <li class=""><a href="three-col.html">Three Column</a></li>
-			  <li class="active"><a href="four-col.html">Four Column</a></li>
-			  <li class=""><a href="general.html">General Content</a></li>
+			  <li class=""><a href="index.php">Home	</a></li>
+			  <li class=""><a href="list-view.php">List View</a></li>
+			  <li class=""><a href="grid-view.php">Grid View</a></li>
+			  <li class=""><a href="three-col.php">Three Column</a></li>
+			  <li class="active"><a href="four-col.php">Four Column</a></li>
+			  <li class=""><a href="general.php">General Content</a></li>
 			</ul>
 			<form action="#" class="navbar-search pull-left">
 			  <input type="text" placeholder="Search" class="search-query span2">
@@ -137,9 +137,9 @@ Three column view
 		<ul class="thumbnails">
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/a.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/a.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -154,9 +154,9 @@ Three column view
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/b.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/b.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -171,61 +171,9 @@ Three column view
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/c.jpg" alt=""></a>
-				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
-					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
-					</div> 
-					<br class="clr">
-				</div>
-			  </div>
-			</li>
-		  
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/d.jpg" alt=""></a>
-				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
-					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
-					</div> 
-					<br class="clr">
-				</div>
-			  </div>
-			</li>
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/e.jpg" alt=""></a>
-				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
-					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
-					</div> 
-					<br class="clr">
-				</div>
-			  </div>
-			</li>
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/f.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/c.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -241,9 +189,9 @@ Three column view
 		  
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/g.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/d.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -258,9 +206,9 @@ Three column view
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/h.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/e.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -275,9 +223,61 @@ Three column view
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/i.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/f.jpg" alt=""></a>
+				<div class="caption cntr">
+					<p>Manicure & Pedicure</p>
+					<p><strong> $22.00</strong></p>
+					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+		  
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/g.jpg" alt=""></a>
+				<div class="caption cntr">
+					<p>Manicure & Pedicure</p>
+					<p><strong> $22.00</strong></p>
+					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/h.jpg" alt=""></a>
+				<div class="caption cntr">
+					<p>Manicure & Pedicure</p>
+					<p><strong> $22.00</strong></p>
+					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/i.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -293,9 +293,9 @@ Three column view
 		 
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/a.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/a.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -310,9 +310,9 @@ Three column view
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/b.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/b.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -327,9 +327,9 @@ Three column view
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="assets/img/c.jpg" alt=""></a>
+				<a href="product_details.php" class="overlay"></a>
+				<a class="zoomTool" href="product_details.php" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.php"><img src="assets/img/c.jpg" alt=""></a>
 				<div class="caption cntr">
 					<p>Manicure & Pedicure</p>
 					<p><strong> $22.00</strong></p>
@@ -388,7 +388,7 @@ Footer
  </div>
 <div class="span2">
 <h5>Iinformation</h5>
-<a href="contact.html">CONTACT</a><br>
+<a href="contact.php">CONTACT</a><br>
 <a href="#">SITEMAP</a><br>
 <a href="#">LEGAL NOTICE</a><br>
 <a href="#">TERMS AND CONDITIONS</a><br>
